@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(150,150,150,0.2);
+    border: 1px black solid;
+    width: 200px;
+    margin: 250px auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#btn-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+}
+
+.user-input-form{
+    margin: 20px auto;
+}
+
+button{
+    margin: 1px;
+}
